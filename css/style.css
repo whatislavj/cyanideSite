@@ -1,0 +1,64 @@
+@import url("https://fonts.cdnfonts.com/css/industry-test");
+body {
+  margin: 0;
+  background-color: #272727;
+  font-family: "Industry Test", sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #5557DA;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.headerLogo:hover {
+  content: url(/img/cna_logo_white.png);
+  transition: transform 0.3s ease;
+}
+
+.navBar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navLink {
+  color: #272727;
+  margin-left: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  color: #09E6F2;
+  transition: 0.8s;
+}
+
+.selected {
+  color: black;
+}
+
+.inButton {
+  border-radius: 8px;
+  border: 1px;
+  margin-top: 17px;
+  margin-right: 15px;
+  width: 75px;
+  height: 35px;
+  background-color: #5557da;
+  font-weight: bold;
+}
+
+.inButton:hover {
+  transition: 0.8s;
+  cursor: pointer;
+  background-color: rgb(75, 77, 155);
+}/*# sourceMappingURL=style.css.map */
